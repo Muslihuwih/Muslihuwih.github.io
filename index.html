@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9cdc40469d.js" crossorigin="anonymous"></script>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+
+    <!-- HEADER SECTION START -->
+
+    <div id="header">
+        <div id="container">
+            <nav>
+                
+                <h1 class="logo">Muslih <span>Uwih</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i style="padding-top: 15px;" class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+
+            <div class="header-text">
+                <p style="font-size: 20px;">Front End Web Developer &<br> UI/UX Designer</p>
+                <h1>Hi, I'm <span>Muslih</span><br>Uwih From Uhamka</h1>
+            </div>
+
+            <div class="media-icons">
+                <a href="https://www.facebook.com/muslihuwih250"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/muslihcms/"><i class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=%2B6283872620159&text&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER SECTION END -->
+
+
+
+
+
+
+
+    <!-- ABOUT SECTION START -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row" >
+                <div class="about-col-1">
+                    <img src="bahan/profile.jpg" data-tilt>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am Muslih, a semester 7 student majoring in Informatics 
+                        Engineering at University Muhammadiyah Pro. Dr. Hamka. I have 
+                        several times worked on several website projects, be it college 
+                        assignments or projects outside of college assignments. I am 
+                        ordinary in terms of the front end developer of a website. My 
+                        expertise is programming (Front end) and user interface design 
+                        (Web and Mobile).</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Educations</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design Web/App Interface</li>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>Graphic Design</span><br>Design Product, Sosial Media & Logo</li>
+                            <li><span>Photographic</span><br>Human Interest, Product, Landscape, and All Event Party</li>
+                            <li><span>Videographic</span><br>Company Profile, product advertising videos, and All Event Videos </li>
+                        </ul>    
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - 2022</span><br>Website E-Commerce QBOY</li>
+                            <li><span>2021 - 2021</span><br>Website Portfolio Responsive</li>
+                            <li><span>2019 - 2019</span><br>Haircut Website</li>
+                            <li><span>2018 - Current</span><br>BankSam Website/li>
+                            <li><span>2017 - Current</span><br>Freelance Design promotion Banner & Design Sosial Media </li>
+                        </ul>    
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - Current</span><br>Universitas Muhammadiyah Prof. Dr. Hamka</li>
+                            <li><span>2017 - 2020</span><br>SMK Purnama 1 Jakarta</li>
+                            <li><span>2014 - 2017</span><br>SMPN 250 Jakarta</li>
+                            <li><span>2008 - 2014</span><br>SDN 13 Pagi Cipete Utara Jakarta</li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ABOUT SECTION END -->
+
+
+
+
+
+
+    <!-- SERVICES SECTION START -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Service</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Front End Developer</h2>
+                    <p>Seorang Front-End Developer adalah seorang profesional dalam dunia pengembangan web yang berfokus pada 
+                        bagian tampilan (user interface) dari suatu aplikasi atau situs web. Front-End Developer bertanggung jawab untuk menciptakan tampilan 
+                        visual yang menarik, responsif, dan mudah digunakan oleh pengguna.</p>
+                    <a href="front.html">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Seorang UI/UX Designer adalah dua konsep penting dalam desain pengalaman pengguna di situs web dan aplikasi. Meskipun berbeda, 
+                        keduanya saling terkait dan berkolaborasi untuk menciptakan pengalaman yang optimal bagi pengguna.</p>                   
+                    <a href="uiux.html">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Multimedia</h2>
+                    <p>Pekerjaan multimedia mencakup berbagai bidang yang 
+                        berkaitan dengan penggunaan berbagai media, seperti teks, gambar, suara, video, dan 
+                        animasi untuk menyampaikan informasi, pesan, atau konten kepada audiens. Profesional 
+                        multimedia bertanggung jawab untuk mengintegrasikan elemen-elemen ini dengan kreatif 
+                        dan efektif untuk menciptakan pengalaman multimedia yang menarik dan bermakna.</p>
+                    <a href="multimedia.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SERVICES SECTION START -->
+
+
+
+    <!-- PORTFOLIO SECTION START -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <h3 class="title-work">Front End Developer</h3>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Bahan/2.png">
+                    <div class="layer">
+                        <h3>BankSam Website</h3>
+                        <p>The app connect you to the talented people around the world. Downoad it drom play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Bahan/1a.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>The app connect you to the talented people around the world. Downoad it drom play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Bahan/3.png">
+                    <div class="layer">
+                        <h3>Qboy Website</h3>
+                        <p>The app connect you to the talented people around the world. Downoad it drom play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Muslihuwih" class="btn">See More</a>
+        </div>
+
+
+
+        <div class="container">
+            <h3 class="title-work">UI/UX Design</h3>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Bahan/1.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>The app connect you to the talented people around the world. Downoad it drom play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Bahan/1.png">
+                    <div class="layer">
+                        <h3>Properties Website</h3>
+                        <p>The app connect you to the talented people around the world. Downoad it drom play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Bahan/1.png">
+                    <div class="layer">
+                        <h3>HIMATI Website</h3>
+                        <p>The app connect you to the talented people around the world. Downoad it drom play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+
+
+
+        <div class="container">
+            <h3 class="title-work">Multimedia</h3>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Bahan/marketing-strategy-planning-strategy-concept.jpg">
+                    <div class="layer">
+                        <h3>Graphic Design</h3>
+                        <p>The app connect you to the talented people around the world. Downoad it drom play store</p>
+                        <a href="https://drive.google.com/drive/folders/10Bbz3Z_ipKiR3uc57hXLnt4T9rjL8GcN?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Bahan/set-up-studio-shoot.jpg">
+                    <div class="layer">
+                        <h3>Photo & Video</h3>
+                        <p>The app connect you to the talented people around the world. Downoad it drom play store</p>
+                        <a href="https://www.youtube.com/channel/UCxC6zTYdW0qJNhlEoOvLg_A"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Bahan/creative-company-professional-movie-footage-editor-sitting-multi-monitor-workstation-while-editing-film-frames-expert-videographer-improving-video-quality-using-specialized-software.jpg">
+                    <div class="layer">
+                        <h3>Editor Photo Video</h3>
+                        <p>The app connect you to the talented people around the world. Downoad it drom play store</p>
+                        <a href="https://www.youtube.com/channel/UCxC6zTYdW0qJNhlEoOvLg_A"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.behance.net/muslicms19f1e3" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- PORTFOLIO SECTION END -->
+
+    
+
+    <!-- CONTACT SECTION START -->
+
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>muslicms19@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+62 83872620159</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100008605802165"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/muslihuwih"><i class="fa-brands fa-twitter-square"></i></i></a>
+                    <a href="https://www.instagram.com/muslihuwih/"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://l.instagram.com/?u=https%3A%2F%2Fyoutube.com%2Fchannel%2FUCxC6zTYdW0qJNhlEoOvLg_A&e=ATPQs_1rDAiIzg4A1NnWVfp066YcRHq2Mm7ygGoMnP20U5vOD9r1ny6GyZob7zhkIkpQNf0uLPW0sNifIcL3kA&s=1"><i class="fa-brands fa-youtube"></i></i></a>
+                    <a href="https://www.behance.net/muslicms19f1e3"><i class="fa-brands fa-behance"></i></i></a>
+
+                </div>
+                <a href="Bahan/Muslih.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Muslih. Made with <i class="fa-solid fa-heart"></i> by Anak Bontot </p>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION SECTION END -->
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
