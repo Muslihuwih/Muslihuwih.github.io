@@ -137,6 +137,11 @@ nav ul li a:hover::after{
     margin-top: 100px;
     width: 100%;
     border-radius: 30px;
+    transition: 0.3s;
+}
+.about-col-1:hover img{
+    transform: scale(1.1);
+    transition: 0.3s ease;
 }
 .about-col-2{
     flex-basis: 50%;
@@ -437,6 +442,11 @@ form .btn2{
 .service-col-1 img{
     width: 100%;
     border-radius: 25px;
+    transition: 0.3s;
+}
+.service-col-1:hover img{
+    transform: scale(1.1);
+    transition: 0.3s ease;
 }
 .service-col-2{
     flex-basis: 60%;
