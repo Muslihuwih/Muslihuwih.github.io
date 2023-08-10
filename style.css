@@ -92,7 +92,12 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff004f;
 }
-
+.header-text a{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 10px 30px;
+}
 .media-icons{
     position:absolute;
     top: 40%;
